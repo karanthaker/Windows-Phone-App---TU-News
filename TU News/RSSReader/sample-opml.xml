@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Karan Thaker
+karan.thaker@hotmail.com
+-->
+<opml version="1.0">
+    <head>
+        <title>Content RSS</title>
+    </head>
+    <body>
+        <outline title="TU News" text="TU News">
+            <outline text="Arts Culture" title="Arts Culture" type="rss" xmlUrl="http://news.temple.edu/rss/news/topics/arts-culture"/>
+            <outline text="Athletics" title="Athletics" type="rss" xmlUrl="http://news.temple.edu/rss/news/topics/athletics"/>
+			<outline text="Campus News" title="Campus News" type="rss" xmlUrl="http://news.temple.edu/rss/news/topics/campus-news"/>
+			<outline text="Community" title="Community" type="rss" xmlUrl="http://news.temple.edu/rss/news/topics/community-engagement"/>
+			<outline text="Global" title="Global" type="rss" xmlUrl="http://news.temple.edu/rss/news/topics/global-temple"/>
+			<outline text="Research" title="Research" type="rss" xmlUrl="http://news.temple.edu/rss/news/topics/research"/>
+			<outline text="Staff and Faculty" title="Staff and Faculty" type="rss" xmlUrl="http://news.temple.edu/rss/news/topics/staff-faculty"/>
+			<outline text="Student Success" title="Student Success" type="rss" xmlUrl="http://news.temple.edu/rss/news/topics/student-success"/>
+			<outline text="Sustainability" title="Sustainability" type="rss" xmlUrl="http://news.temple.edu/rss/news/topics/sustainability"/>
+			<outline text="Temple 2020" title="Temple 2020" type="rss" xmlUrl="http://news.temple.edu/rss/news/topics/temple-2020"/>			
+		</outline>
+
+        <outline title="Fox School" text="Fox School">
+			<outline text="News" title="News" type="rss" xmlUrl="http://www.fox.temple.edu/posts/category/press_and_media/feed/"/>		
+            <outline text="Featured Videos" title="Featured Videos" type="rss" xmlUrl="http://www.fox.temple.edu/posts/category/press_and_media/videos/feed/"/>
+        </outline>
+
+    </body>
+</opml>

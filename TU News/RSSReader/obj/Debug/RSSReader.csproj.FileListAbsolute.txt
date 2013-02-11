@@ -1,0 +1,44 @@
+C:\Users\krt\Desktop\wprssreader\RSSReader\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\krt\Desktop\wprssreader\RSSReader\obj\Debug\App.g.i.cs
+C:\Users\krt\Desktop\wprssreader\RSSReader\obj\Debug\Views\FeedPivot.g.i.cs
+C:\Users\krt\Desktop\wprssreader\RSSReader\obj\Debug\Views\ItemPage.g.i.cs
+C:\Users\krt\Desktop\wprssreader\RSSReader\obj\Debug\Views\MainPano.g.i.cs
+C:\Users\krt\Desktop\wprssreader\RSSReader\obj\Debug\Views\SearchPage.g.i.cs
+C:\Users\krt\Desktop\wprssreader\RSSReader\obj\Debug\Views\SubscriptionsPage.g.i.cs
+C:\Users\krt\Desktop\wprssreader\RSSReader\obj\Debug\RSSReader.g.resources
+C:\Users\krt\Desktop\wprssreader\RSSReader\Bin\Debug\RSSReader.dll
+C:\Users\krt\Desktop\wprssreader\RSSReader\Bin\Debug\RSSReader.pdb
+C:\Users\krt\Desktop\wprssreader\RSSReader\Bin\Debug\AppManifest.xaml
+C:\Users\krt\Desktop\wprssreader\RSSReader\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\krt\Desktop\wprssreader\RSSReader\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\krt\Desktop\wprssreader\RSSReader\Bin\Debug\System.ServiceModel.Syndication.dll
+C:\Users\krt\Desktop\wprssreader\RSSReader\Bin\Debug\System.Xml.Serialization.dll
+C:\Users\krt\Desktop\wprssreader\RSSReader\Bin\Debug\Microsoft.Phone.Controls.xml
+C:\Users\krt\Desktop\wprssreader\RSSReader\Bin\Debug\Microsoft.Phone.Controls.Toolkit.pdb
+C:\Users\krt\Desktop\wprssreader\RSSReader\Bin\Debug\Microsoft.Phone.Controls.Toolkit.xml
+C:\Users\krt\Desktop\wprssreader\RSSReader\obj\Debug\RSSReader.dll
+C:\Users\krt\Desktop\wprssreader\RSSReader\obj\Debug\RSSReader.pdb
+C:\Users\krt\Desktop\wprssreader\RSSReader\obj\Debug\XapCacheFile.xml
+C:\Users\krt\Desktop\wprssreader\RSSReader\Bin\Debug\QikRSSFeeds.xap
+C:\Users\krt\Desktop\WP7 Builds\Temple U News\RSSReader\Bin\Debug\RSSReader.dll
+C:\Users\krt\Desktop\WP7 Builds\Temple U News\RSSReader\Bin\Debug\RSSReader.pdb
+C:\Users\krt\Desktop\WP7 Builds\Temple U News\RSSReader\Bin\Debug\AppManifest.xaml
+C:\Users\krt\Desktop\WP7 Builds\Temple U News\RSSReader\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\krt\Desktop\WP7 Builds\Temple U News\RSSReader\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\krt\Desktop\WP7 Builds\Temple U News\RSSReader\Bin\Debug\System.ServiceModel.Syndication.dll
+C:\Users\krt\Desktop\WP7 Builds\Temple U News\RSSReader\Bin\Debug\System.Xml.Serialization.dll
+C:\Users\krt\Desktop\WP7 Builds\Temple U News\RSSReader\Bin\Debug\Microsoft.Phone.Controls.xml
+C:\Users\krt\Desktop\WP7 Builds\Temple U News\RSSReader\Bin\Debug\Microsoft.Phone.Controls.Toolkit.pdb
+C:\Users\krt\Desktop\WP7 Builds\Temple U News\RSSReader\Bin\Debug\Microsoft.Phone.Controls.Toolkit.xml
+C:\Users\krt\Desktop\WP7 Builds\Temple U News\RSSReader\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\krt\Desktop\WP7 Builds\Temple U News\RSSReader\obj\Debug\App.g.i.cs
+C:\Users\krt\Desktop\WP7 Builds\Temple U News\RSSReader\obj\Debug\Views\FeedPivot.g.i.cs
+C:\Users\krt\Desktop\WP7 Builds\Temple U News\RSSReader\obj\Debug\Views\ItemPage.g.i.cs
+C:\Users\krt\Desktop\WP7 Builds\Temple U News\RSSReader\obj\Debug\Views\MainPano.g.i.cs
+C:\Users\krt\Desktop\WP7 Builds\Temple U News\RSSReader\obj\Debug\Views\SearchPage.g.i.cs
+C:\Users\krt\Desktop\WP7 Builds\Temple U News\RSSReader\obj\Debug\Views\SubscriptionsPage.g.i.cs
+C:\Users\krt\Desktop\WP7 Builds\Temple U News\RSSReader\obj\Debug\RSSReader.g.resources
+C:\Users\krt\Desktop\WP7 Builds\Temple U News\RSSReader\obj\Debug\RSSReader.dll
+C:\Users\krt\Desktop\WP7 Builds\Temple U News\RSSReader\obj\Debug\RSSReader.pdb
+C:\Users\krt\Desktop\WP7 Builds\Temple U News\RSSReader\obj\Debug\XapCacheFile.xml
+C:\Users\krt\Desktop\WP7 Builds\Temple U News\RSSReader\Bin\Debug\TUNews.xap

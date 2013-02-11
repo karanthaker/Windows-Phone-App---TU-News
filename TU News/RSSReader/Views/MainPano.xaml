@@ -1,0 +1,98 @@
+﻿<!--
+Karan Thaker
+karan.thaker@hotmail.com
+-->
+<phone:PhoneApplicationPage 
+    x:Class="RSSReader.Views.MainPano"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="Black"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <phone:PhoneApplicationPage.Resources>
+        <Style x:Key="FeedGridItemStyle" TargetType="Button">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderBrush" Value="{StaticResource PhoneForegroundBrush}"/>
+            <Setter Property="Foreground" Value="{StaticResource PhoneForegroundBrush}"/>
+            <Setter Property="BorderThickness" Value="{StaticResource PhoneBorderThickness}"/>
+            <Setter Property="FontFamily" Value="{StaticResource PhoneFontFamilyNormal}"/>
+            <Setter Property="FontSize" Value="{StaticResource PhoneFontSizeNormal}"/>
+            <Setter Property="Padding" Value="10,3,10,5"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid Background="Transparent">
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal"/>
+                                    <VisualState x:Name="MouseOver"/>
+                                    <VisualState x:Name="Pressed"/>
+                                    <VisualState x:Name="Disabled"/>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <Grid Height="180" Margin="8,8,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="180">
+                                <Image Source="{Binding ImageURL}"/>
+                                <TextBlock Margin="8,0,8,8" TextWrapping="Wrap" VerticalAlignment="Bottom" Height="27" Text="{Binding Title}" d:LayoutOverrides="VerticalAlignment" Foreground="Black" />
+                            </Grid>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        
+        <DataTemplate x:Key="FeedGridItemTemplate">
+            <Button Style="{StaticResource FeedGridItemStyle}"
+                    Click="Button_Click"/>
+        </DataTemplate>
+
+        <ItemsPanelTemplate x:Key="FeedGridPanelTemplate">
+            <!-- WrapPanel is part of Silverlight Toolkit which does not ship as part of this
+                 example. Please see release notes for instructions how to install and use
+                 Silverlight Toolkit. -->
+            <toolkit:WrapPanel/>
+        </ItemsPanelTemplate>
+    </phone:PhoneApplicationPage.Resources>
+
+    <Grid x:Name="LayoutRoot" Background="Transparent" DataContext="{Binding Source={StaticResource RSSPagesDataSource}, Path=Cache}">
+        <controls:Panorama Title="tu news" x:Name="RSSFeedsPanorama" Foreground="Black" ItemsSource="{Binding}">
+            <controls:Panorama.Background>
+                <ImageBrush ImageSource="/Resources/newspaper-background.jpg" />
+            </controls:Panorama.Background>
+
+            <controls:Panorama.HeaderTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Title}" />
+                        <Button Click="SettingsButton_Click" Margin="0,10,0,0" BorderThickness="0">
+                            <Image Source="/Resources/appbar.feature.settings.rest.png" Width="60" />
+                        </Button>
+                    </StackPanel>
+                </DataTemplate>
+            </controls:Panorama.HeaderTemplate>
+            
+            <controls:Panorama.ItemTemplate>
+                <DataTemplate>
+                        <!-- TilEffect is part of Silverlight Toolkit which does not ship as part of this
+                             example. Please see release notes for instructions how to install and use
+                             Silverlight Toolkit. -->
+                        <ListBox Name="FeedsListBox"
+                                 toolkit:TiltEffect.IsTiltEnabled="True"
+                                 ItemTemplate="{StaticResource FeedGridItemTemplate}" 
+                                 ItemsSource="{Binding FeedsView.View}" 
+                                 ItemsPanel="{StaticResource FeedGridPanelTemplate}"
+                                 Margin="25,0,0,0"/>
+                </DataTemplate>
+            </controls:Panorama.ItemTemplate>
+        </controls:Panorama>
+    </Grid>
+</phone:PhoneApplicationPage>
